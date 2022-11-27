@@ -1,0 +1,61 @@
+body {
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 4px;
+}
+.one {
+  display: flex;
+  justify-content: flex-end;
+}
+.two {
+  display: flex;
+  justify-content: flex-start;
+}
+.three {
+  display: flex;
+  justify-content: flex-end;
+}
+.foure {
+  display: flex;
+  justify-content: center;
+}
+.blue {
+  text-align: center;
+  border: 2px solid;
+  border-color: black;
+  background-color: lightskyblue;
+  width: 220px;
+  padding: 15px;
+
+  margin-right: 30px;
+}
+.sk {
+  padding: 40px;
+  text-align: center;
+  border: 2px solid;
+  border-color: black;
+  margin-right: 80pt;
+}
+.step {
+  margin-top: 0px;
+  margin-right: 320px;
+  margin-left: 320px;
+  margin-bottom: 0px;
+}
+
+.sk.or {
+  background-color: orange;
+}
+.sk.fi {
+  background-color: blueviolet;
+}
+.sk.gr {
+  background-color: greenyellow;
+}
